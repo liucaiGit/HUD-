@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21AF6DECC98414989383A57D /* libPods-二次封装HUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AD9D8BC505D921055D1666 /* libPods-二次封装HUD.a */; };
+		4B06D9551F54314200FD7D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B06D9541F54314200FD7D5F /* main.m */; };
+		4B06D9581F54314200FD7D5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B06D9571F54314200FD7D5F /* AppDelegate.m */; };
+		4B06D9601F54314200FD7D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B06D95F1F54314200FD7D5F /* Assets.xcassets */; };
+		4B06D9631F54314200FD7D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B06D9611F54314200FD7D5F /* LaunchScreen.storyboard */; };
+		4B06D96E1F54314200FD7D5F /* ____HUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B06D96D1F54314200FD7D5F /* ____HUDTests.m */; };
+		4B06D9791F54314200FD7D5F /* ____HUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B06D9781F54314200FD7D5F /* ____HUDUITests.m */; };
+		4B7A80FC1F5514660014886E /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A80FB1F5514660014886E /* HUDViewController.m */; };
+		4B910AF71F54369000304445 /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B910AF61F54369000304445 /* HUDManager.m */; };
+		4B910AFC1F54387F00304445 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B910AF81F54387F00304445 /* error.png */; };
+		4B910AFD1F54387F00304445 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B910AF91F54387F00304445 /* error@2x.png */; };
+		4B910AFE1F54387F00304445 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B910AFA1F54387F00304445 /* success.png */; };
+		4B910AFF1F54387F00304445 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B910AFB1F54387F00304445 /* success@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B06D96A1F54314200FD7D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B06D9481F54314200FD7D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B06D94F1F54314200FD7D5F;
+			remoteInfo = "二次封装HUD";
+		};
+		4B06D9751F54314200FD7D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B06D9481F54314200FD7D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B06D94F1F54314200FD7D5F;
+			remoteInfo = "二次封装HUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35FDE83EFF47A6046A4CA72F /* Pods-二次封装HUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-二次封装HUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-二次封装HUD/Pods-二次封装HUD.release.xcconfig"; sourceTree = "<group>"; };
+		4B06D9501F54314200FD7D5F /* 二次封装HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二次封装HUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B06D9541F54314200FD7D5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B06D9561F54314200FD7D5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B06D9571F54314200FD7D5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B06D95F1F54314200FD7D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B06D9621F54314200FD7D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B06D9641F54314200FD7D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B06D9691F54314200FD7D5F /* 二次封装HUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二次封装HUDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B06D96D1F54314200FD7D5F /* ____HUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____HUDTests.m"; sourceTree = "<group>"; };
+		4B06D96F1F54314200FD7D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B06D9741F54314200FD7D5F /* 二次封装HUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二次封装HUDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B06D9781F54314200FD7D5F /* ____HUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____HUDUITests.m"; sourceTree = "<group>"; };
+		4B06D97A1F54314200FD7D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7A80FA1F5514660014886E /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		4B7A80FB1F5514660014886E /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		4B910AF51F54369000304445 /* HUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDManager.h; sourceTree = "<group>"; };
+		4B910AF61F54369000304445 /* HUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDManager.m; sourceTree = "<group>"; };
+		4B910AF81F54387F00304445 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		4B910AF91F54387F00304445 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		4B910AFA1F54387F00304445 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		4B910AFB1F54387F00304445 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		5AA690F0002BDE07D9EBDB41 /* Pods-二次封装HUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-二次封装HUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-二次封装HUD/Pods-二次封装HUD.debug.xcconfig"; sourceTree = "<group>"; };
+		71AD9D8BC505D921055D1666 /* libPods-二次封装HUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-二次封装HUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B06D94D1F54314200FD7D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF6DECC98414989383A57D /* libPods-二次封装HUD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B06D9661F54314200FD7D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B06D9711F54314200FD7D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B06D9471F54314200FD7D5F = {
+			isa = PBXGroup;
+			children = (
+				4B7A80FA1F5514660014886E /* HUDViewController.h */,
+				4B7A80FB1F5514660014886E /* HUDViewController.m */,
+				4B06D9521F54314200FD7D5F /* 二次封装HUD */,
+				4B06D96C1F54314200FD7D5F /* 二次封装HUDTests */,
+				4B06D9771F54314200FD7D5F /* 二次封装HUDUITests */,
+				4B06D9511F54314200FD7D5F /* Products */,
+				E1252E6CE02433371D8B777F /* Pods */,
+				ABA3CD44B132D6ACA6BCDEBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B06D9511F54314200FD7D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B06D9501F54314200FD7D5F /* 二次封装HUD.app */,
+				4B06D9691F54314200FD7D5F /* 二次封装HUDTests.xctest */,
+				4B06D9741F54314200FD7D5F /* 二次封装HUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B06D9521F54314200FD7D5F /* 二次封装HUD */ = {
+			isa = PBXGroup;
+			children = (
+				4B06D9561F54314200FD7D5F /* AppDelegate.h */,
+				4B06D9571F54314200FD7D5F /* AppDelegate.m */,
+				4B910AF31F54369000304445 /* HUDManager */,
+				4B06D95F1F54314200FD7D5F /* Assets.xcassets */,
+				4B06D9611F54314200FD7D5F /* LaunchScreen.storyboard */,
+				4B06D9641F54314200FD7D5F /* Info.plist */,
+				4B06D9531F54314200FD7D5F /* Supporting Files */,
+			);
+			path = "二次封装HUD";
+			sourceTree = "<group>";
+		};
+		4B06D9531F54314200FD7D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B06D9541F54314200FD7D5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B06D96C1F54314200FD7D5F /* 二次封装HUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B06D96D1F54314200FD7D5F /* ____HUDTests.m */,
+				4B06D96F1F54314200FD7D5F /* Info.plist */,
+			);
+			path = "二次封装HUDTests";
+			sourceTree = "<group>";
+		};
+		4B06D9771F54314200FD7D5F /* 二次封装HUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B06D9781F54314200FD7D5F /* ____HUDUITests.m */,
+				4B06D97A1F54314200FD7D5F /* Info.plist */,
+			);
+			path = "二次封装HUDUITests";
+			sourceTree = "<group>";
+		};
+		4B910AF31F54369000304445 /* HUDManager */ = {
+			isa = PBXGroup;
+			children = (
+				4B910AF41F54369000304445 /* HUDImages */,
+				4B910AF51F54369000304445 /* HUDManager.h */,
+				4B910AF61F54369000304445 /* HUDManager.m */,
+			);
+			path = HUDManager;
+			sourceTree = "<group>";
+		};
+		4B910AF41F54369000304445 /* HUDImages */ = {
+			isa = PBXGroup;
+			children = (
+				4B910AF81F54387F00304445 /* error.png */,
+				4B910AF91F54387F00304445 /* error@2x.png */,
+				4B910AFA1F54387F00304445 /* success.png */,
+				4B910AFB1F54387F00304445 /* success@2x.png */,
+			);
+			path = HUDImages;
+			sourceTree = "<group>";
+		};
+		ABA3CD44B132D6ACA6BCDEBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71AD9D8BC505D921055D1666 /* libPods-二次封装HUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1252E6CE02433371D8B777F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AA690F0002BDE07D9EBDB41 /* Pods-二次封装HUD.debug.xcconfig */,
+				35FDE83EFF47A6046A4CA72F /* Pods-二次封装HUD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B06D94F1F54314200FD7D5F /* 二次封装HUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B06D97D1F54314200FD7D5F /* Build configuration list for PBXNativeTarget "二次封装HUD" */;
+			buildPhases = (
+				9819B4CFDA01DCA65B5562BD /* [CP] Check Pods Manifest.lock */,
+				4B06D94C1F54314200FD7D5F /* Sources */,
+				4B06D94D1F54314200FD7D5F /* Frameworks */,
+				4B06D94E1F54314200FD7D5F /* Resources */,
+				46A5540A2AF7926AC8D04AF9 /* [CP] Embed Pods Frameworks */,
+				BFCE6CF5BFD3B1F1DE236631 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二次封装HUD";
+			productName = "二次封装HUD";
+			productReference = 4B06D9501F54314200FD7D5F /* 二次封装HUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B06D9681F54314200FD7D5F /* 二次封装HUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B06D9801F54314200FD7D5F /* Build configuration list for PBXNativeTarget "二次封装HUDTests" */;
+			buildPhases = (
+				4B06D9651F54314200FD7D5F /* Sources */,
+				4B06D9661F54314200FD7D5F /* Frameworks */,
+				4B06D9671F54314200FD7D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B06D96B1F54314200FD7D5F /* PBXTargetDependency */,
+			);
+			name = "二次封装HUDTests";
+			productName = "二次封装HUDTests";
+			productReference = 4B06D9691F54314200FD7D5F /* 二次封装HUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B06D9731F54314200FD7D5F /* 二次封装HUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B06D9831F54314200FD7D5F /* Build configuration list for PBXNativeTarget "二次封装HUDUITests" */;
+			buildPhases = (
+				4B06D9701F54314200FD7D5F /* Sources */,
+				4B06D9711F54314200FD7D5F /* Frameworks */,
+				4B06D9721F54314200FD7D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B06D9761F54314200FD7D5F /* PBXTargetDependency */,
+			);
+			name = "二次封装HUDUITests";
+			productName = "二次封装HUDUITests";
+			productReference = 4B06D9741F54314200FD7D5F /* 二次封装HUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B06D9481F54314200FD7D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liucai;
+				TargetAttributes = {
+					4B06D94F1F54314200FD7D5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					4B06D9681F54314200FD7D5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B06D94F1F54314200FD7D5F;
+					};
+					4B06D9731F54314200FD7D5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B06D94F1F54314200FD7D5F;
+					};
+				};
+			};
+			buildConfigurationList = 4B06D94B1F54314200FD7D5F /* Build configuration list for PBXProject "二次封装HUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B06D9471F54314200FD7D5F;
+			productRefGroup = 4B06D9511F54314200FD7D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B06D94F1F54314200FD7D5F /* 二次封装HUD */,
+				4B06D9681F54314200FD7D5F /* 二次封装HUDTests */,
+				4B06D9731F54314200FD7D5F /* 二次封装HUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B06D94E1F54314200FD7D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B910AFF1F54387F00304445 /* success@2x.png in Resources */,
+				4B06D9631F54314200FD7D5F /* LaunchScreen.storyboard in Resources */,
+				4B910AFE1F54387F00304445 /* success.png in Resources */,
+				4B910AFD1F54387F00304445 /* error@2x.png in Resources */,
+				4B06D9601F54314200FD7D5F /* Assets.xcassets in Resources */,
+				4B910AFC1F54387F00304445 /* error.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B06D9671F54314200FD7D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B06D9721F54314200FD7D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46A5540A2AF7926AC8D04AF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-二次封装HUD/Pods-二次封装HUD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9819B4CFDA01DCA65B5562BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCE6CF5BFD3B1F1DE236631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-二次封装HUD/Pods-二次封装HUD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B06D94C1F54314200FD7D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B06D9581F54314200FD7D5F /* AppDelegate.m in Sources */,
+				4B06D9551F54314200FD7D5F /* main.m in Sources */,
+				4B7A80FC1F5514660014886E /* HUDViewController.m in Sources */,
+				4B910AF71F54369000304445 /* HUDManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B06D9651F54314200FD7D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B06D96E1F54314200FD7D5F /* ____HUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B06D9701F54314200FD7D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B06D9791F54314200FD7D5F /* ____HUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B06D96B1F54314200FD7D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B06D94F1F54314200FD7D5F /* 二次封装HUD */;
+			targetProxy = 4B06D96A1F54314200FD7D5F /* PBXContainerItemProxy */;
+		};
+		4B06D9761F54314200FD7D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B06D94F1F54314200FD7D5F /* 二次封装HUD */;
+			targetProxy = 4B06D9751F54314200FD7D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B06D9611F54314200FD7D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B06D9621F54314200FD7D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B06D97B1F54314200FD7D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B06D97C1F54314200FD7D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B06D97E1F54314200FD7D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA690F0002BDE07D9EBDB41 /* Pods-二次封装HUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "二次封装HUD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huisou.hssc.----HUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B06D97F1F54314200FD7D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FDE83EFF47A6046A4CA72F /* Pods-二次封装HUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "二次封装HUD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huisou.hssc.----HUD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B06D9811F54314200FD7D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "二次封装HUDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huisou.hssc.----HUDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二次封装HUD.app/二次封装HUD";
+			};
+			name = Debug;
+		};
+		4B06D9821F54314200FD7D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "二次封装HUDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huisou.hssc.----HUDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二次封装HUD.app/二次封装HUD";
+			};
+			name = Release;
+		};
+		4B06D9841F54314200FD7D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "二次封装HUDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huisou.hssc.----HUDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "二次封装HUD";
+			};
+			name = Debug;
+		};
+		4B06D9851F54314200FD7D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "二次封装HUDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huisou.hssc.----HUDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "二次封装HUD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B06D94B1F54314200FD7D5F /* Build configuration list for PBXProject "二次封装HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B06D97B1F54314200FD7D5F /* Debug */,
+				4B06D97C1F54314200FD7D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B06D97D1F54314200FD7D5F /* Build configuration list for PBXNativeTarget "二次封装HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B06D97E1F54314200FD7D5F /* Debug */,
+				4B06D97F1F54314200FD7D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B06D9801F54314200FD7D5F /* Build configuration list for PBXNativeTarget "二次封装HUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B06D9811F54314200FD7D5F /* Debug */,
+				4B06D9821F54314200FD7D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B06D9831F54314200FD7D5F /* Build configuration list for PBXNativeTarget "二次封装HUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B06D9841F54314200FD7D5F /* Debug */,
+				4B06D9851F54314200FD7D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B06D9481F54314200FD7D5F /* Project object */;
+}
